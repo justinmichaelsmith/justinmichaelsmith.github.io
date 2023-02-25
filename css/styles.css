@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    padding-top: 48px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  h2 {
+    color: #a3a3a3;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  div.body {
+    position: absolute;
+    left: 72px;
+    max-width: 66%;
+    z-index: 0;
+  }
+
+  div.nav {
+    position: absolute;
+    right: 72px;
+    max-width: 33%;
+    z-index: 1;
+  }
+
+  p {
+    color: #5b5b5b;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
