@@ -1,1 +1,0 @@
-# justinmichaelsmith.github.io
