@@ -1,4 +1,4 @@
- @media only screen and (max-width: 480px){
+ @media only screen and (min-width: 320px) and (max-width: 480px){
     div.nav {
       display: none;
     }
@@ -70,6 +70,7 @@ body {
     max-height: 100%;
     overflow-y: auto;
     position: fixed;
+    display: block;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
   }
